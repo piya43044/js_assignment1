@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Calculator</title>
+    </head>
+
+    <body>
+
+        <!----------- Calcultor Form ------------->
+        <div class="container">
+            <!-- <form action="#"> -->
+
+                <!-- First Number -->
+                <label for="firstNumber">Enter the first number : </label>
+                <input type="text" name="firstNumber" id="firstNumber" required>
+                <br><br>
+
+                <!-- Selection of Operator -->
+                <label for="operator">Select the operator : </label>
+                <select name="operator" id="operator" required>
+                    <option value="">Choose one</option>
+                    <option value="+"> + </option>
+                    <option value="-"> - </option>
+                    <option value="*"> * </option>
+                    <option value="/"> / </option>
+                </select>
+                <br><br>
+
+                <!-- Second Number -->
+                <label for="secondNumbers">Enter the second number : </label>
+                <input type="text" name="secondNumber" id="secondNumber" required>
+                <br><br>
+
+                <!-- Calculate Button -->
+                <button>Calculate</button>
+
+            <!-- </form> -->
+            
+            <!-- Text for Output -->
+            <p id="answer"></p>            
+            
+            <!-- Javascript -->
+            <script src="script.js" defer></script>
+
+        </div>
+    </body>
+</html>
